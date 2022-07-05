@@ -1,4 +1,8 @@
 <template>
+<head>
+  <title>game UI</title>
+<link rel="stylesheet" href="Login.css">
+</head>
 <div>
   <h3>{{info}}</h3>
   <a href="https://youku.com/" class="youku">优酷</a>
@@ -20,7 +24,6 @@
   <a href="https://www.1688.com/" class="pt">1688平台</a>
   
 </div>
-
 </template>
 
 <script>
@@ -68,5 +71,12 @@ export default {
 }
 .pt{
   color: orange;
+}
+      body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("zyz.jpg");
+    background-size: cover;
 }
 </style>
